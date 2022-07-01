@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <BaseOutputPath>C:\Users\Lucas\source\repos</BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>1.0.5</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="MessageTemp.cs" />
+    <Compile Include="SmsMessaging.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Twilio" Version="5.75.3" />
+  </ItemGroup>
+
+</Project>

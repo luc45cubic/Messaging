@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MessageSender</id>
+    <version>1.0.5</version>
+    <authors>MessageSender</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Twilio" version="5.75.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Lucas\source\repos\Debug\net6.0\MessageSender.dll" target="lib\net6.0\MessageSender.dll" />
+    <file src="C:\Users\Lucas\source\repos\Debug\net6.0\MessageSender.xml" target="lib\net6.0\MessageSender.xml" />
+  </files>
+</package>

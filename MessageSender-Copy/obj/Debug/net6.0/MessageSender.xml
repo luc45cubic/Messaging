@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MessageSender</name>
+    </assembly>
+    <members>
+        <member name="T:MessageSender.MessageTemp">
+            <summary>
+            Mezi vrstva pro všechny brány
+            </summary>
+        </member>
+        <member name="P:MessageSender.MessageTemp.PhoneNumber">
+            <summary>
+            Telefonní číslo na které se zpráva pošle
+            </summary>
+        </member>
+        <member name="P:MessageSender.MessageTemp.MessageBody">
+            <summary>
+            Samotná zpráva
+            </summary>
+        </member>
+    </members>
+</doc>
